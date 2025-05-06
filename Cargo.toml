@@ -1,0 +1,13 @@
+[package]
+name = "cucmber-example"
+version = "0.1.0"
+edition = "2024"
+
+[[test]]
+name = "cucumber"
+harness = false
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+cucumber = "0.21"
+anyhow = "1"
